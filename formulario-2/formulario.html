@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="conteiner-form">
+        <h1 class="titu">Formulario consulta al cliente</h1>
+        <form>
+            <!--datos del usuario-->
+            <label class="frase">Nombre Completo:</label>
+            <input class="ingrese" type="text" name="nombre" id="nombre" placeholder="Primer nombre" autofocus required>
+            <input class="app" type="text" name="apellido" id="apellido" placeholder="Apellido">
+
+            <label class="frase"> Número de celular</label> 
+            <input class="ingrese" type="number" name="celular" id="celular" placeholder="Ingrese su número"> 
+        
+            <label class="frase">Correo:</label> 
+            <input class="ingrese" type="email" name="correo" id="correo" placeholder="Ingrese su correo"> 
+         
+            <label class="frase">Motivo de consulta</label> 
+            <input class="ingrese" type="text" name="consulta" id="consulta" placeholder="Ingrese su motivo de consulta">
+
+            <label class="frase">Fecha de consulta</label>
+            <input class="ingrese" type="date" name="Fecha" id="Fecha">
+
+            <label class="frase">Hora de consulta</label>
+            <input class="ingrese" type="time" name="hora" id="hora"> 
+
+            <label class="frase">Otros comentarios</label> 
+            <input id="others" type="text" name="mensaje" id="mensaje"> 
+            <input id="enviar" type="submit" value="Enviar">
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
